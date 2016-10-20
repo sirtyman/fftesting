@@ -12,9 +12,9 @@ class TestCase(unittest.TestCase):
 
 class Test1(TestCase):
     def test_1(self):
-        TestCase.assertTrue(True)
+        self.assertTrue(1==1)
 
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HTMLTestRunner).runTests()
+    unittest.main(testRunner=HTMLTestRunner.HTMLTestRunner).runTests()
