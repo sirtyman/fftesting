@@ -2,7 +2,7 @@ __author__ = 'Marcin'
 
 
 import unittest
-import fftesting.HTMLTestRunner as HTMLTestRunner
+import HTMLTestRunner as HTMLTestRunner
 
 
 class TestCase(unittest.TestCase):
